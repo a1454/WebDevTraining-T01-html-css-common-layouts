@@ -1,0 +1,19 @@
+{
+  "name": "t01-html-css-common-layouts",
+  "version": "1.0.0",
+  "description": "T01-html-css-common-layouts",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1454/WebDevTraining-T01-html-css-common-layouts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a1454/WebDevTraining-T01-html-css-common-layouts/issues"
+  },
+  "homepage": "https://github.com/a1454/WebDevTraining-T01-html-css-common-layouts#readme"
+}
