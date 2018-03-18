@@ -1,7 +1,161 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Merriweather', serif;
-}
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.content-area {
+    margin: 0 auto;
+    max-width: 1024px;
+    height: 100%;
+}
+
+
+/* ========= Begin Global Header ============== */
+ 
+#global-header {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 72px;
+    position: fixed;
+    width:100%;
+}
+#global-header .content-area{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#global-header li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 50px;
+    color: #fff;
+    font-weight: 300;
+}
+#global-header li:hover {
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+}
+
+
+
+/* ========= Begin Hero Section ============== */
+
+#hero {
+    height: 600px;
+    background: no-repeat center url("hero_bkgd.jpeg");
+    position: relative;
+}
+#hero h1 {
+    font-family: 'Roboto-thin', sans-serif;
+    font-weight: 100;
+    font-size: 2rem;
+    color: #fff;
+    margin: 0;
+    padding-top: 400px;
+}
+#hero h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+    color: #fff;
+    margin:-5px 0 0 0;
+}
+
+
+/* ========= Begin Cards Section ============== */
+
+#cards {
+    padding: 100px 0;
+}
+#cards .cards-ctn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#cards .card {
+    width: 315px;
+    height: 400px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+#cards .card-img-ctn {
+    background-color: greenyellow;
+    height: 300px;
+    width: 100%;
+}
+#cards h2 {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+/* ========= Begin Slide Section ============== */
+
+#slide {
+    height: 600px;
+    background: no-repeat center url("slide_bkgd.jpeg");
+    position: relative;
+}
+#slide .shadow-box {
+    box-shadow: inset 0 0 20px 10px rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 3000px;
+    left: -960px;
+    position: absolute;
+}
+#slide .text-area {
+    width: 500px;
+    padding-top: 250px;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+#slide h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+#slide p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+
+
+/* ========= Begin Slide Section ============== */
+
+footer {
+    background-color: #202020;
+}
+footer .text-area {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 0 100px 0;
+}
+footer h1 {
+    font-size: 1.2rem;
+}
+footer .sitemap-menu ul {
+    padding: 0;
+    list-style: none;
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+footer .sitemap-menu li {
+    line-height: 1.8rem;
+}
+footer .quicklinks ul {
+    list-style: none;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+}
+footer .contact h1 {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+footer .contact p {
+    font-size: 0.8rem;
+    font-weight: 100;
 }
